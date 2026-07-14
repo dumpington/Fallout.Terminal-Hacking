@@ -10,6 +10,7 @@
   "build": {
     "appId": "com.example.falloutterminal",
     "productName": "Fallout Terminal Hacking",
+    "publish": null,
     "files": [
       "**/*"
     ],
