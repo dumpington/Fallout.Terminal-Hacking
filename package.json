@@ -1,0 +1,27 @@
+{
+  "name": "fallout-terminal-hacking",
+  "version": "0.1.0",
+  "description": "Fallout Terminal Hacking - packaged with Electron",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "dist": "electron-builder --win nsis --x64"
+  },
+  "build": {
+    "appId": "com.example.falloutterminal",
+    "productName": "Fallout Terminal Hacking",
+    "files": [
+      "**/*"
+    ],
+    "directories": {
+      "buildResources": "build"
+    },
+    "win": {
+      "target": ["nsis"]
+    }
+  },
+  "devDependencies": {
+    "electron": "^26.0.0",
+    "electron-builder": "^24.0.0"
+  }
+}
